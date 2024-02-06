@@ -1,0 +1,15 @@
+{
+  "name": "annoyingcord",
+  "version": "1.0.0",
+  "description": "A discord bot that sends back the same message and disconnects a specific user",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dest.Com",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  }
+}
