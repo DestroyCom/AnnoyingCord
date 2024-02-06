@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  annoyingcord:
+    build: .
+    container_name: annoyingcord
+    restart: on-failure
+    environment:
+      - TOKEN=${TOKEN}
+      - USER_ID_TO_TRACK=${USER_ID_TO_TRACK}
